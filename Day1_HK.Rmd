@@ -40,7 +40,7 @@ train
 
 ## 範例3
 ```{r cars}
-# 什麼年代建立
+# 屬於高危險的山坡地上，有多少棟戶，分別是哪一些建築類型
 train<-read.csv("Data/D1/train.csv")%>%
   select("BldgType","LandSlope","YearBuilt")%>%
   filter(LandSlope == "Sev")%>%
